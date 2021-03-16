@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    justify-content: center;
+}
+h1{
+    background-color: #3f8f8d;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+p{
+    background-color: #5dc0a6;
+    text-align: center;
+    padding: 20px;
+}
+main{
+    height: 600px;
+}
+#myForm {
+    justify-content: center;
+    width: 30%;
+    float: left;
+    margin-left: 150px;
+    
+}
+fieldset {
+    border: dotted;
+    border-width: 2px;
+    border-color: rgb(122, 122, 122) ;
+}
+#myTable {
+    margin-right: 150px;
+    width: 40%;
+    float: right;
+}
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    height: 40px;
+    
+  }
+  tr:nth-child(odd){
+    background-color:#f6b8d1 ;
+  }
+  tr:nth-child(even) {
+    background-color:#ffd3de ;
+  }
+  input , select{
+      width: 300px;
+  }
+  button {
+      width: 50px;
+      height: 30px;
+      float: left;
+      margin-left: 50px;
+      background-color: rgb(64, 148, 64);
+  }
